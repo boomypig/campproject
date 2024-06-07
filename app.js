@@ -106,7 +106,9 @@ let intro_h1 = document.getElementById("Header");
 let d_body = document.getElementById("body");
 
 cat_name_button.onclick = () => {
-  let rand_int = Math.floor(Math.random() * cat_names_array.values);
-  new_name = cat_names_array[rand_int];
+  let rand_index = Math.floor(Math.random() * cat_names_array.length);
+  let new_name = cat_names_array[rand_index];
   console.log(new_name);
+
+  d_body.innerHTML = new_name;
 };

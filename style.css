@@ -1,4 +1,9 @@
 body {
-    font-family: sans-serif;
-    text-align: center;
-  }
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px;
+  background-color: bisque;
+  border: burlywood groove 3px;
+}

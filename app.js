@@ -114,3 +114,10 @@ cat_name_button.onclick = () => {
 
   d_body.innerHTML = new_name;
 };
+
+add_button.onclick = () => {
+  let name_val = name_input.value;
+  console.log(name_val);
+  cat_names_array.push(name_val);
+  console.log(cat_names_array);
+};

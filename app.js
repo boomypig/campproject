@@ -104,6 +104,8 @@ let cat_names_array = [
 let cat_name_button = document.getElementById("catname");
 let intro_h1 = document.getElementById("Header");
 let d_body = document.getElementById("body");
+let name_input = document.getElementById("cat-name-input");
+let add_button = document.getElementById("input-button");
 
 cat_name_button.onclick = () => {
   let rand_index = Math.floor(Math.random() * cat_names_array.length);

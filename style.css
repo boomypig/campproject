@@ -1,7 +1,8 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Yatra One", system-ui;
 }
 
 body {
@@ -14,6 +15,6 @@ body {
   border: gray 3px;
   gap: 50px;
 }
-#body{
+#body {
   font-size: 65px;
 }

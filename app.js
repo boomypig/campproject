@@ -120,4 +120,5 @@ add_button.onclick = () => {
   console.log(name_val);
   cat_names_array.push(name_val);
   console.log(cat_names_array);
+  name_input.value = "";
 };
